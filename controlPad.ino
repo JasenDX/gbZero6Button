@@ -5,7 +5,6 @@
             Based on the program found on https://sudomod.com/game-boy-zero-guide-part-2/ written by wermy
 */
 
-
 #include <Bounce2.h>
 #include <Keyboard.h>
 
@@ -27,22 +26,22 @@ Key key(char keycode, int pin) {
 }
 
 void setupKeys() {
-  keys[0] = key('w', 2);
-  keys[1] = key('s', 3);
-  keys[2] = key('a', 4);
-  keys[3] = key('d', 5);
-  keys[4] = key('p', 6);
-  keys[5] = key('l', 7);
-  keys[6] = key('o', 8);
-  keys[7] = key('k', 9);
-  keys[8] = key('x', 10);
-  keys[9] = key('z', 16);
-  keys[10] = key('q',14);
-  keys[11] = key('e',15);
-  keys[12] = key('m',A0);
-  keys[13] = key('n',A1);
-  keys[14] = key('b',A2);
-  keys[15] = key('c',A3);
+  keys[0] = key('w', 2); //up arrow
+  keys[1] = key('a', 3); //left arrow
+  keys[2] = key('s', 4); //down arrow
+  keys[3] = key('d', 5); //right arrow
+  keys[4] = key('e', 6); //a
+  keys[5] = key('f', 7); //b
+  keys[6] = key('v', 8); //c
+  keys[7] = key('r', 9); //x
+  keys[8] = key('g', 10); //y
+  keys[9] = key('b', 16); //z
+  keys[10] = key('+',14); //start
+  keys[11] = key('-',15); //select
+  keys[12] = key('o',A0); //l1
+  keys[13] = key('p',A1); //r1
+  keys[14] = key('*',A2); //unused
+  keys[15] = key('*',A3); //unused
 }
 
 void setup() {
