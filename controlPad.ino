@@ -32,14 +32,14 @@ void setupKeys() {
   keys[3] = key('d', 5); //right arrow
   keys[4] = key('e', 6); //a
   keys[5] = key('f', 7); //b
-  keys[6] = key('v', 8); //c
+  keys[6] = key('v', 8); //l1
   keys[7] = key('r', 9); //x
   keys[8] = key('g', 10); //y
-  keys[9] = key('b', 16); //z
+  keys[9] = key('b', 16); //r1
   keys[10] = key('+',14); //start
   keys[11] = key('-',15); //select
-  keys[12] = key('o',A0); //l1
-  keys[13] = key('p',A1); //r1
+  keys[12] = key('o',A0); //l2
+  keys[13] = key('p',A1); //r2
   keys[14] = key('*',A2); //unused
   keys[15] = key('*',A3); //unused
 }
